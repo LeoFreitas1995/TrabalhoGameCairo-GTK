@@ -1,0 +1,43 @@
+    # #MORTE
+    # tile_img_id = mapa_get( jogador_tx, jogador_ty ) ########
+
+    
+    # #Verifica se o cangaceiro está com a máscara
+    # if tiles_info[ tile_img_id ] == 2:
+    #     caveira_flag = True
+    #     jogador_img = cairo.ImageSurface.create_from_png("sprites/cangaceirocaveira.png")
+    #     cr.set_source_surface( jogador_img,  px,py )
+    #     cr.paint()
+    #     #window.queue_draw()
+    # #verifica se morreu
+    # if jogador_tx == mobe_tx and jogador_ty == mobe_ty and caveira_flag == True:
+    #     caveira_flag = None
+    #     jogador_img = cairo.ImageSurface.create_from_png("sprites/cangaceiro.png")
+    #     x = px
+    #     y = py +32
+    #     cr.set_source_surface( jogador_img,  x,y)
+    #     cr.paint()
+    #     jogador_tx = x/TILE_W
+    #     jogador_ty = y/TILE_H
+    #     #window.queue_draw()
+    # if jogador_tx == mobe_tx and jogador_ty == mobe_ty: 
+    #     jogador_img = cairo.ImageSurface.create_from_png("sprites/cangaceiromorto.png")
+    #     cr.set_source_surface( jogador_img,  px,py )
+    #     cr.paint()
+    #     jogador_tx = 0
+    #     jogador_ty = 0
+    #     jogador_img = cairo.ImageSurface.create_from_png("sprites/cangaceiro.png")
+    #     cr.set_source_surface( jogador_img,  px,py )
+    #     cr.paint()
+
+    # #verifica se caiu na água
+    # if tiles_info[ tile_img_id ] == 3:
+    #     caveira_flag = None
+    #     jogador_img = cairo.ImageSurface.create_from_png("sprites/nadar.png")
+    #     cr.set_source_surface( jogador_img,  px,py )
+    #     cr.paint()  
+
+    # if tiles_info[ tile_img_id ] == 1 and caveira_flag == None:
+    #     jogador_img = cairo.ImageSurface.create_from_png("sprites/cangaceiro.png")
+    #     cr.set_source_surface( jogador_img,  px,py )
+    #     cr.paint()

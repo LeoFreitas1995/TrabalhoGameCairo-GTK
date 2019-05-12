@@ -1,0 +1,14 @@
+chão escuro -> 0
+cacto -> 1
+arvore seca -> 2 
+montaha -> 3
+pedra -> 4
+caveira -> 5
+chão claro -> 6
+chão pedregoso -> 7
+chão pedregoso quente -> 8
+fonte -> 9
+agua -> 10
+ponte -> 11
+grama -> 12
+casa -> 13
